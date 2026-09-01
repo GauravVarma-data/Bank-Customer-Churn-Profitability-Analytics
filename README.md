@@ -1,24 +1,14 @@
-Absolutely bro. For GitHub, I would make the README look like an **actual analytics case study**, not like a course assignment.
+🏦 Bank Customer Churn & Profitability Analytics
 
-Below is a polished version you can use directly.
+Python | SQL | Power BI | Excel | Streamlit | Customer Segmentation
 
----
-
-# 🏦 Bank Customer Churn & Profitability Analytics
-
-### **Python | SQL | Power BI | Excel | Streamlit | Customer Segmentation**
-
-## 📌 Project Overview
+📌 Project Overview
 
 Customer retention is a major challenge for retail banks because losing customers can also mean losing significant account balances and future business value.
 
 This project analyzes a **10,000-customer synthetic retail banking dataset** to identify customer churn patterns, evaluate customer value, quantify financial exposure, and prioritize customers for retention efforts.
 
 The analysis combines **Python, SQL, Excel, Power BI, and Streamlit** to demonstrate an end-to-end Data Analytics workflow — from data quality and feature engineering to business insights and interactive reporting.
-
-> **Dataset note:** The dataset included in this repository is synthetically generated for portfolio and educational purposes. It is not real customer information and does not represent the performance of an actual financial institution.
-
----
 
 # 🎯 Business Problem
 
