@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
-BASE = Path(__file__).resolve().parents[1]
-df = pd.read_csv(BASE/"data"/"bank_customer_churn.csv")
+BASE = Path(__file__).resolve().parent
+df = pd.read_csv(BASE / "bank_customer_churn.csv")
 
 st.set_page_config(page_title="Bank Churn Analytics", layout="wide")
 st.title("Bank Customer Churn & Profitability Analytics")
