@@ -1,8 +1,8 @@
 from pathlib import Path
 import pandas as pd
 
-BASE = Path(__file__).resolve().parent
-df = pd.read_csv(BASE / "bank_customer_churn.csv")
+BASE = Path(__file__).resolve().parents[1]
+df = pd.read_csv(BASE / "data" / "bank_customer_churn.csv")
 
 print("Rows:", len(df))
 print("Columns:", len(df.columns))
