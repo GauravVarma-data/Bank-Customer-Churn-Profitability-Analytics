@@ -1,5 +1,6 @@
 -- Bank Customer Churn & Profitability Analytics
 -- SQLite-compatible SQL. The same logic can be adapted to PostgreSQL/MySQL.
+-- Before running: import bank_customer_churn.csv into SQLite as a table named "customers".
 
 -- 01. Executive KPIs
 SELECT
