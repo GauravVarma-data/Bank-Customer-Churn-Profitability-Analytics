@@ -1,11 +1,11 @@
 # Power BI Dashboard Specification
 
 Import:
-- data/bank_customer_churn.csv
-- outputs/churn_by_geography.csv
-- outputs/churn_by_age_group.csv
-- outputs/churn_by_products.csv
-- outputs/risk_segments.csv
+- bank_customer_churn.csv
+- churn_by_geography.csv
+- churn_by_age_group.csv
+- churn_by_products.csv
+- risk_segments.csv
 
 ## KPI cards
 Total Customers = DISTINCTCOUNT(CustomerId)
